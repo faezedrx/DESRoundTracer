@@ -51,17 +51,3 @@ DES با 16 راند طراحی شده تا ترکیب مناسبی از پرا�
 
 ## هشدار
 این پیاده‌سازی برای اهداف آموزشی/تحقیقاتی است و برای استفادهٔ تولیدی توصیه نشده است.
-
-
-MD;
-
-
-file_put_contents($readmeMd, $readmeContent);
-
-
-// -------------- finished --------------
-echo "Done. Outputs in: $outDir\n";
-echo "Files: per_round_outputs.csv, run_summary.csv, analysis_by_round.csv, final_hamming_distribution.csv, README.md\n";
-
-
-?>
